@@ -7,6 +7,7 @@ Username |Password
 ----------|---------
 admin	|pass
 user	|password
+
 The admin user has the extra functionality of being able to add/remove users and view a list of all users in the database.
 
 I also included some entries in the admin file, but the user file does not exist yet, so you can see how the program creates a new file for new users.
