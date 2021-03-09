@@ -10,7 +10,7 @@ The admin user has the extra functionality of being able to add/remove users and
 
 I also included some entries in the admin file, but the user file does not exist yet, so you can see how the program creates a new file for new users.
 
-To run the program:
+**To run the program:**
 1.	Run the server program using python myserver.py
 1.	Run the client program using python myclient.py
 This sets up the socket and encryption.
@@ -37,6 +37,7 @@ The parser recognizes the following commands:
 *	newentry (creates a new entry into the user’s virtual diary)
 *	showdata (displays all of the user’s previous entries)
 *	q (quit)
+
 Any other input is recognized as invalid.
 On the server side, all functions return a string which is then sent (encrypted) to the client and printed to the screen. This way the client gets feedback from the server after every command they use. 
-I thoroughly tested the parser under non-ideal conditions (e.g. user attempts to access restricted admin-only functions, attempts to login in when there is already a user logged in, attempts to log out when there is no user logged in, etc.) To make sure that this would not break the program. All these cases are handled by the server.
+
