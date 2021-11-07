@@ -24,6 +24,7 @@ Typical client usage of the program would go something like:
 1.  showdata (client reviews their past entries)
 1.	logout
 1.	q
+
 Any functions that require arguments will prompt the user to enter additional information.
 Additional functions such as adduser and changepass are documented below in the Command Parsing section.
 
